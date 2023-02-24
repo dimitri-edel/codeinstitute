@@ -3,8 +3,20 @@ h1 {
     font-size: xx-large;
 }
 
-.portrait-heading {
-    height: 15%;
-    width: 15%;    
-    float:left;
+@media screen and (max-width: 399px) {
+    .portrait-heading {
+        height: 30%;
+        width: auto;
+        float: none;
+    }
+}
+
+
+@media screen and (min-width: 400px) {
+    .portrait-heading {
+        height: 15%;
+        width: 15%;
+        float: left;
+
+    }
 }
