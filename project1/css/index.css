@@ -4,7 +4,7 @@ h1 {
 }
 
 .portrait-heading {
-    height: 50vh;
-    width: 50vw;
-    text-align: center;
+    height: 15%;
+    width: 15%;    
+    float:left;
 }
