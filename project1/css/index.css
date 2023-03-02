@@ -9,11 +9,21 @@ h1 {
     float: none;
 }
 
-.nav-link {
+a.nav-link {
+    display: block;
     text-align: center;
     float: none;
     background-color: darkblue;
     color: white;
+    margin: 5px;
+}
+
+a.nav-link:hover{
+    background-color: gray;
+}
+
+a.nav-link:active{
+    transform: translateY(5px);
 }
 
 @media only screen and (min-width: 768px) {
@@ -23,12 +33,21 @@ h1 {
         float: left;
     }
 
-    .nav-link {
+    a.nav-link {
+        display: block;
         text-align: center;
         float: left;
         background-color: darkblue;
         color: white;
         width: 20%;
         margin: 10px;;
+    }
+
+    a.nav-link:hover{
+        background-color: gray;
+    }
+    
+    a.nav-link:active{
+        transform: translateY(5px);
     }
 }
