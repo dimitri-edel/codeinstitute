@@ -1,21 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+header {
+    position:sticky;
+    top: 5px;
+    background-color: aqua;
+    width:100%;
+}
+
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: xx-large;
+    font-size: x-large;
+    margin-left: 10px;
+    float:left;
+    background-color: yellow;
+}
+
+nav {
+    float: none;
+    background-color: yellowgreen;
+}
+
+#navigation-menu{
+    list-style-type: none;
+    direction: rtl;
 }
 
 .portrait-heading {
     height: 30%;
     width: auto;
     float: none;
+    
 }
 
 a.nav-link {
     display: block;
     text-align: center;
-    float: none;
+    float: left;
     background-color: darkblue;
     color: white;
     margin: 5px;
+    text-decoration: none;
 }
 
 a.nav-link:hover{
@@ -26,13 +53,20 @@ a.nav-link:active{
     transform: translateY(5px);
 }
 
-@media only screen and (min-width: 768px) {
+a.open {
+    text-decoration: underline;
+}
+@media only screen and (min-width: 650px) {
     .portrait-heading {
         height: 15%;
         width: 15%;
         float: left;
+        clear:left;
     }
 
+    #portrait-text {
+        float:left;
+    }
     a.nav-link {
         display: block;
         text-align: center;
@@ -49,5 +83,14 @@ a.nav-link:active{
     
     a.nav-link:active{
         transform: translateY(5px);
+    }
+
+    #video-1 {
+        float:left;
+        clear:both;
+    }
+
+    footer {
+        clear:both;
     }
 }
