@@ -68,6 +68,7 @@ a.open {
     text-decoration: underline;
 }
 
+/* index.html - introduction article */
 .portrait-heading {
     height: 30vh;
     width: auto;
@@ -94,6 +95,7 @@ a.open {
     height: 100%;
 }
 
+/* phylosphy section */
 #philosophy {
     background-color: aqua;
     clear: left;
@@ -103,6 +105,13 @@ a.open {
 #philosophy > p {
     flex: 1 1 auto;
     height: 100%;
+}
+
+/* footer */
+footer {
+    background-color: rgb(92, 86, 86);
+    color: white;
+    height: 5vh;
 }
 
 @media only screen and (min-width: 650px) {
