@@ -3,6 +3,11 @@
     padding: 0;
     border: none;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
 header {
     position:sticky;
     top: 5px;
@@ -28,13 +33,6 @@ nav {
     direction: rtl;
 }
 
-.portrait-heading {
-    height: 30%;
-    width: auto;
-    float: none;
-    
-}
-
 a.nav-link {
     display: block;
     text-align: center;
@@ -56,15 +54,35 @@ a.nav-link:active{
 a.open {
     text-decoration: underline;
 }
+
+.portrait-heading {
+    height: 30%;
+    width: auto;
+    float: none;
+    background-color: #c0c0c0;
+}
+
+.portrait-text {
+    height: 30%;
+    background-color: yellow;
+}
+
+#philosophy {
+    background-color: aqua;
+    clear:both;
+}
+
 @media only screen and (min-width: 650px) {
     .portrait-heading {
         height: 15%;
         width: 15%;
         float: left;
-        clear:left;
+        clear:left;  
+        background-color: #c0c0c0;     
     }
 
     #portrait-text {
+        height:15%;
         float:left;
     }
     a.nav-link {
