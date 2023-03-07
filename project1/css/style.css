@@ -100,14 +100,18 @@ a.open {
 #philosophy {
     background-color: #1e4b80;
     clear: left;
-    height: 50vh;
+    height: auto;
     color: lightyellow;
     font-family: 'Kalam', cursive;
 }
 
-#philosophy>p {
+#philosophy h2 {
+    font-size: 33px;
+}
+#philosophy p {
     flex: 1 1 auto;
     height: 100%;
+    font-size: large;
 }
 
 /* footer */
@@ -155,6 +159,12 @@ footer {
 
     a.nav-link:active {
         transform: translateY(5px);
+    }
+
+    #philosophy {
+        background-color: #1e4b80;
+        clear: left;
+        height: 50vh;
     }
 
     #video-1 {
