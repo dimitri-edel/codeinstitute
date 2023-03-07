@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=Kaushan+Script&display=swap');
+
 
 * {
     margin: 0;
@@ -34,7 +35,7 @@ h1 {
 }
 
 #nav-bar {
-    display:block;
+    display: block;
     width: 100vw;
 }
 
@@ -52,7 +53,7 @@ a.nav-link {
     background-color: darkblue;
     text-decoration: none;
 
-    height:80%;
+    height: 80%;
     margin: 5px;
 }
 
@@ -97,12 +98,14 @@ a.open {
 
 /* phylosphy section */
 #philosophy {
-    background-color: aqua;
+    background-color: #1e4b80;
     clear: left;
-    height: 50vh;    
+    height: 50vh;
+    color: lightyellow;
+    font-family: 'Kalam', cursive;
 }
 
-#philosophy > p {
+#philosophy>p {
     flex: 1 1 auto;
     height: 100%;
 }
