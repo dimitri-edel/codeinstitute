@@ -29,13 +29,13 @@ br {
 h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: x-large;
-    margin-left: 10px;
+    margin: 0 10px;
     float: left;
 }
 
 #nav-bar {
     display:block;
-    width: 80vw;
+    width: 100vw;
 }
 
 #navigation-menu {
