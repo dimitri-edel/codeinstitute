@@ -96,7 +96,7 @@ a.open {
     height: 100%;
 }
 
-/* phylosphy section */
+/* index.html - phylosphy section */
 #philosophy {
     background-color: #1e4b80;
     clear: left;
@@ -114,6 +114,24 @@ a.open {
     font-size: large;
 }
 
+/* movies.html */
+.movie-collection {
+    width: 100vw;
+    height: auto;    
+}
+.movie-box {
+    width: 300px;
+    height: 500px;
+    font-family: 'Kaushan Script', cursive;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.movie-box img {
+    width: auto;
+    height: 100%;
+    
+}
 /* footer */
 footer {
     background-color: rgb(92, 86, 86);
@@ -197,3 +215,4 @@ footer {
     }
     
 }
+
