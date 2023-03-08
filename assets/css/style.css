@@ -9,16 +9,16 @@
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: auto;
 }
 
-header {
-    position: sticky;
+header {   
+    position: sticky; 
     top: 5px;
     width: 100%;
 }
 
-#title-bar {
+#title-bar {    
     background-color: #f2f29b;
     overflow: hidden;
 }
@@ -129,9 +129,30 @@ a.open {
 
 .movie-box img {
     width: auto;
-    height: 100%;
+    height: 70%;
     
 }
+
+.movie-box p {
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* mma.html - Martial Arts Page */
+#impact-on-mma {
+    display:block;
+}
+
+#impact-on-mma h1 {
+    float: none;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+}
+
+#impact-on-mma p {
+    margin: 5px;
+}
+
 /* footer */
 footer {
     background-color: rgb(92, 86, 86);
