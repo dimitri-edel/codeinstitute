@@ -149,6 +149,12 @@ a.open {
     font-family: 'Kalam', cursive;
 }
 
+#impact-on-mma h2 {
+    float: none;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+}
+
 #impact-on-mma p {
     margin: 5px;
 }
