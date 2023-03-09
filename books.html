@@ -18,18 +18,57 @@
         <div id="title-bar">
             <h1>Bruce Lee - Books</h1>
             <nav>
-                <ul id="navigation-menu">
-                    <li><a class="nav-link" href="index.html">Home</a></li>
-                    <li><a class="nav-link" href="movies.html">Movies</a></li>
-                    <li><a class="nav-link" href="mma.html">Martial Arts</a></li>
-                    <li><a class="nav-link open" href="books.html">Books</a> </li>
-                </ul>
+                <div id="nav-bar">
+                    <ul id="navigation-menu">
+                        <li><a class="nav-link" href="index.html">Home</a></li>
+                        <li><a class="nav-link" href="movies.html">Movies</a></li>
+                        <li><a class="nav-link" href="mma.html">Martial Arts</a></li>
+                        <li><a class="nav-link open" href="books.html">Books</a> </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
 
     <br>
+    <h2>Chinese Gung Fu: The Philosophical Art of Self-Defense</h2>
+    <img src="assets/img/books/chinsese-gung-fu.png">
+    <p>Chinese Gung Fu: The Philosophical Art of Self-Defense is a book written by Bruce Lee expressing his martial arts
+        philosophy and viewpoints. It describes his early style of gung fu which was based heavily on Wing Chun. This
+        was before the development of his unique style of martial arts called Jeet Kune Do in the late 1960s.</p>
+    <h2>Tao of Jeet Kune Do</h2>
+    <img src="assets/img/books/Tao_of_Jeet_Kune_Do.jpg">
+    <h2>Bruce Lee's Fighting Method</h2>
+    <img src="assets/img/books/BLFM.jpg">
 
+    <form id="bookorder_form">
+        <h2>Order a book</h2>
+        <fieldset>
+            <legend>Order:</legend>
+            <label for="first_name">First Name:</label>
+            <input id="first_name" name="first_name" type="text" class="input-filed">
+
+            <label for="last_name">Last Name:</label>
+            <input id="last_name" name="last_name" type="text" class="input-field">
+
+            <label for="book_select">Choose your book from the list:</label>
+            <input type="text" list="books" name="book_title" id="book_select" style="border:1px solid black;width:80%;"
+                multiple>
+            <datalist id="books">
+                <option value="Chinese Gung Fu">
+                <option value="Tao of Jeet Kune Do">
+                <option value="Bruce Lee's Fighting Method">
+            </datalist>
+
+            <input type="submit" value="Submit Order" class="submit-button">
+        </fieldset>
+    </form>
+
+    <footer>
+        Dimitri Edel 2023
+    </footer>
+    <!-- font awsome script -->
+    <script src="https://kit.fontawesome.com/73429b2bf2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

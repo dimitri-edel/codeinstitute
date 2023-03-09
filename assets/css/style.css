@@ -21,6 +21,7 @@ header {
 #title-bar {    
     background-color: #f2f29b;
     overflow: hidden;
+    width: 100%;
 }
 
 br {
@@ -31,17 +32,20 @@ h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: x-large;
     margin: 0 10px;
-    float: left;
+    text-align: center;
 }
 
 #nav-bar {
     display: block;
-    width: 100vw;
+    width: 100%;
+    /* margin: 0 auto; */
+    overflow: hidden;
 }
 
 #navigation-menu {
     list-style-type: none;
     direction: rtl;
+    clear:both;    
 }
 
 a.nav-link {
@@ -50,11 +54,14 @@ a.nav-link {
 
     text-align: center;
     color: white;
-    background-color: #1e4b80;
+    background-color: #1e4b80;    
     text-decoration: none;
+    min-height: 40px;
 
     height: 80%;
-    margin: 5px;
+    margin: 1%;
+    width: 23%;
+    
 }
 
 a.nav-link:hover {
@@ -116,8 +123,9 @@ a.open {
 
 /* movies.html */
 .movie-collection {
-    width: 100vw;
-    height: auto;    
+    width: inherit;
+    height: auto; 
+    text-align: center;   
 }
 .movie-box {
     width: 300px;
@@ -159,6 +167,22 @@ a.open {
     margin: 5px;
 }
 
+/* books.html */
+.input-field {
+    border: 1px solid black;
+}
+
+.submit-button {
+    background-color: #1e4b80;
+    color: white;
+    border-radius: 25px;
+}
+
+fieldset {
+    border:2px groove;
+    margin:10px;
+    padding:10px;
+}
 /* footer */
 footer {
     background-color: rgb(92, 86, 86);
@@ -171,10 +195,17 @@ footer {
 @media only screen and (min-width: 640px) {
     h1 {
         margin: 0 20px;
+        text-align: left;
+        float:left;
     }
 
     #nav-bar {
-        width: 100vw;
+        width: 65%;
+        float:right;
+    }
+
+    #navigation-menu {
+        clear:none;        
     }
     .portrait-heading {
         height: 30vh;
@@ -199,6 +230,7 @@ footer {
         color: white;
         width: 17%;
         margin: 10px;
+        min-height: auto;
         height: 80%;
     }
 
@@ -221,6 +253,10 @@ footer {
         clear: both;
     }
 
+    /* movies page - mma.html */
+    #movie-box {
+        display:block;
+    }
     footer {
         clear: both;
     }
