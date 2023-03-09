@@ -12,22 +12,18 @@ body {
     height: auto;
 }
 
-header {   
-    position: sticky; 
+header {
+    position: sticky;
     top: 0;
     width: 100%;
     clear: both;
 }
 
-#title-bar {    
+#title-bar {
     background-color: #f2f29b;
     overflow: hidden;
     width: 100%;
 }
-
-/* br {
-    clear: both;
-} */
 
 h1 {
     font-family: 'Kaushan Script', cursive;
@@ -46,7 +42,7 @@ h1 {
 #navigation-menu {
     list-style-type: none;
     direction: rtl;
-    clear:both;    
+    clear: both;
 }
 
 a.nav-link {
@@ -55,14 +51,14 @@ a.nav-link {
 
     text-align: center;
     color: white;
-    background-color: #1e4b80;    
+    background-color: #1e4b80;
     text-decoration: none;
     min-height: 40px;
 
     height: 80%;
     margin: 1%;
     width: 23%;
-    
+
 }
 
 a.nav-link:hover {
@@ -75,6 +71,13 @@ a.nav-link:active {
 
 a.open {
     text-decoration: underline;
+}
+
+.wallpaper {
+    background: linear-gradient(rgba(250, 250, 250, 0.9),rgba(249, 254, 222, 0.8),
+            rgba(250, 250, 250, 0.9)), url('/assets/img/dragon.png');
+            height: 100%;
+    
 }
 
 /* index.html - introduction article */
@@ -103,7 +106,7 @@ a.open {
 
 .portrait-text>p {
 
-    
+
     height: auto;
 }
 
@@ -119,6 +122,7 @@ a.open {
 #philosophy h2 {
     font-size: 33px;
 }
+
 #philosophy p {
     flex: 1 1 auto;
     height: 100%;
@@ -128,9 +132,10 @@ a.open {
 /* movies.html */
 .movie-collection {
     width: inherit;
-    height: auto; 
-    text-align: center;   
+    height: auto;
+    text-align: center;
 }
+
 .movie-box {
     width: 300px;
     height: 500px;
@@ -142,7 +147,7 @@ a.open {
 .movie-box img {
     width: auto;
     height: 70%;
-    
+
 }
 
 .movie-box p {
@@ -152,7 +157,7 @@ a.open {
 
 /* mma.html - Martial Arts Page */
 #impact-on-mma {
-    display:block;
+    display: block;
 }
 
 #impact-on-mma h1 {
@@ -188,17 +193,18 @@ a.open {
 }
 
 fieldset {
-    border:2px groove;
-    margin:10px;
-    padding:10px;
+    border: 2px groove;
+    margin: 10px;
+    padding: 10px;
 }
+
 /* footer */
 footer {
     background-color: rgb(92, 86, 86);
     color: white;
     height: 5vh;
     position: sticky;
-    bottom:0;
+    bottom: 0;
 }
 
 /* media query for tablets */
@@ -207,17 +213,18 @@ footer {
     h1 {
         margin: 0 20px;
         text-align: left;
-        float:left;
+        float: left;
     }
 
     #nav-bar {
         width: 65%;
-        float:right;
+        float: right;
     }
 
     #navigation-menu {
-        clear:none;        
+        clear: none;
     }
+
     .portrait-heading {
         height: 30vh;
         width: auto;
@@ -266,8 +273,9 @@ footer {
 
     /* movies page - mma.html */
     #movie-box {
-        display:block;
+        display: block;
     }
+
     footer {
         clear: both;
     }
@@ -287,6 +295,5 @@ footer {
     a.nav-link {
         width: 15%;
     }
-    
-}
 
+}
