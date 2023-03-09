@@ -14,8 +14,9 @@ body {
 
 header {   
     position: sticky; 
-    top: 5px;
+    top: 0;
     width: 100%;
+    clear: both;
 }
 
 #title-bar {    
@@ -24,9 +25,9 @@ header {
     width: 100%;
 }
 
-br {
+/* br {
     clear: both;
-}
+} */
 
 h1 {
     font-family: 'Kaushan Script', cursive;
@@ -83,6 +84,7 @@ a.open {
     float: none;
     background-color: #c0c0c0;
     text-align: center;
+    margin-top: 5px;
 }
 
 .portrait-heading img {
@@ -95,12 +97,14 @@ a.open {
     border: 1px solid yellow;
     height: 30vh;
     background-color: #fafae1;
+    flex: 1 1 auto;
+    overflow: scroll;
 }
 
 .portrait-text>p {
 
-    flex: 1 1 auto;
-    height: 100%;
+    
+    height: auto;
 }
 
 /* index.html - phylosphy section */
@@ -170,12 +174,17 @@ a.open {
 /* books.html */
 .input-field {
     border: 1px solid black;
+    display: block;
+    width: 300px;
 }
 
 .submit-button {
     background-color: #1e4b80;
     color: white;
     border-radius: 25px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
 }
 
 fieldset {
@@ -188,6 +197,8 @@ footer {
     background-color: rgb(92, 86, 86);
     color: white;
     height: 5vh;
+    position: sticky;
+    bottom:0;
 }
 
 /* media query for tablets */
