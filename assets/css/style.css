@@ -82,7 +82,7 @@ a.open {
 
 .wallpaper {
     background: linear-gradient(rgba(250, 250, 250, 1), rgba(249, 252, 232, 0.9),
-            rgba(250, 250, 250, 1)), url('../img/dragon.png');
+            rgba(250, 250, 250, 1)), url('../img/dragon.webp');
     height: 100%;
 
 }
