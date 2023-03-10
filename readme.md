@@ -28,9 +28,13 @@ Here comes the description
 ## Credits
 Here comes the description
 ### Content
-Here comes the description
+- wikipedia.org
+- fourminutebooks.com (Bruce Lee's famous quotes)
 ### Media
-Here comes the description
-
-
-[def]: /assets/img/portrait1.png
+- wallpapersafari.com (Image for 'Enter the Dragon')
+- kindpng.com (Image for 'The Big Boss')
+- wallpaperaccess.com (Image for 'Game of Death') 
+- china-underground.com (Image for 'Way of the Dragon')
+- en.picmix.com (Image of Bruce Lee with a dragon in the background)
+- freesvg.org (Portrait of Bruce Lee on the Home Page)
+- wikipedia.org (Images of the book covers)

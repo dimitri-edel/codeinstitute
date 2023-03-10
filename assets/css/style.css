@@ -121,14 +121,28 @@ a.open {
     font-family: 'Kalam', cursive;
 }
 
-#philosophy h2 {
+#quotes {
+    background-color: #1e4b80;
+    color: lightyellow;
+    font-family: 'Kalam', cursive;
+
+    height: auto;
+}
+
+#philosophy h2, #quotes h2 {
     font-size: 33px;
 }
 
-#philosophy p {
+#philosophy p, #quotes p {
     flex: 1 1 auto;
     height: 100%;
     font-size: large;
+}
+
+#quotes p {
+    margin: 10px;
+    line-height: 20px;
+    text-align: justify;
 }
 
 /* movies.html */
@@ -245,8 +259,7 @@ footer {
         float: left;
     }
 
-    #nav-bar {
-        width: 65%;
+    #nav-bar {        
         float: none;
     }
 
@@ -292,12 +305,12 @@ footer {
     #philosophy {
         background-color: #1e4b80;
         clear: left;
-        height: 50vh;
+        height: auto;
     }
 
     #video-1 {
         float: right;
-        clear: both;
+        /* clear: both; */
     }
 
     /* movies page - mma.html */
