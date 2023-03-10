@@ -212,7 +212,7 @@ a.open {
     transform: translateY(5px);
 }
 
-#bookorder_form > fieldset {
+#bookorder-form > fieldset {
     border: 2px groove;
     margin: 10px;
     padding: 10px;
@@ -306,7 +306,7 @@ footer {
     }
 
     /* books page - books.html */
-    #bookorder_form label {
+    #bookorder-form label {
         width:300px;
         display:inline-block;
     }
