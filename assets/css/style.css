@@ -52,17 +52,24 @@ a.nav-link {
     float: left;
 
     text-align: center;
+
     color: white;
     background-color: #1e4b80;
     text-decoration: none;
     min-height: 40px;
+    padding: 5px;
+
+    font-size: small;
 
     height: 80%;
     margin: 1%;
     width: 23%;
 
 }
-
+ /* Set margin to the icon to create gap between Text and icon */
+ i {
+    margin-right: 10px;
+ }
 a.nav-link:hover {
     background-color: gray;
 }
@@ -73,6 +80,9 @@ a.nav-link:active {
 
 a.open {
     text-decoration: underline;
+    background-color: #f2f29b;
+    border: 1px solid #d1d106;
+    color:#072241;
 }
 
 .wallpaper {
@@ -156,7 +166,7 @@ a.open {
     padding: 10px;
 
     border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
 
     border-top-color:#889eb7;
     border-right-color: #355a84;
@@ -166,7 +176,7 @@ a.open {
 
 .border-ridge {
     border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
 
     border-top-color:#889eb7;
     border-right-color: #355a84;
@@ -182,6 +192,11 @@ a.open {
     margin: 20px;
     line-height: 20px;
     text-align: justify;
+}
+
+/* Adjust the video size to a smaller screen */
+#video-1 {
+    width:270px;    
 }
 
 /* movies.html */
@@ -322,11 +337,6 @@ footer {
     }
 
     a.nav-link {
-        display: block;
-        text-align: center;
-        float: left;
-        background-color: darkblue;
-        color: white;
         width: 17%;
         margin: 10px;
         min-height: auto;
@@ -348,12 +358,12 @@ footer {
     }
 
     #quotes-container {
-        width:calc(100% - 490px);
+        width:calc(100% - 510px);
     }
 
     #video-1 {
         float: right;
-        /* clear: both; */
+        width:480px;
     }
 
     /* movies page - mma.html */
