@@ -20,13 +20,6 @@ header {
     clear: both;
 }
 
-#title-bar {
-    background-color: #f2f29b;
-    overflow: hidden;
-    width: 100%;
-
-}
-
 h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: x-large;
@@ -35,6 +28,7 @@ h1 {
 }
 
 #nav-bar {
+    background-color: #f2f29b;
     display: block;
     width: 100%;
     margin: 0 auto;
@@ -55,6 +49,7 @@ a.nav-link {
 
     color: white;
     background-color: #1e4b80;
+    border-radius: 5px;
     text-decoration: none;
     min-height: 40px;
     padding: 5px;
@@ -63,7 +58,7 @@ a.nav-link {
 
     height: 80%;
     margin: 1%;
-    width: 23%;
+    width: 20%;
 
 }
  /* Set margin to the icon to create gap between Text and icon */
@@ -109,17 +104,19 @@ a.open {
 }
 
 .portrait-text {
-    border: 1px solid yellow;
+    border: 1px solid white;
     height: 30vh;
     background-color: #fafae1;
     flex: 1 1 auto;
     overflow: scroll;
+    margin: 5px;
 }
 
 .portrait-text>p {
-
-
+    font-size: large;
+    margin: 10px;
     height: auto;
+    text-align: justify;
 }
 
 /* index.html - phylosphy section */
@@ -150,8 +147,10 @@ a.open {
 #quotes h2 {
     font-size: 33px;
     border-color: white;
-    border-top: 5px;
-    border-bottom: 5px;
+    border-top: 1px;
+    border-left: 1px;
+    border-bottom: 3px;
+    border-right: 3px;
     border-style: solid;
     background-color: #033b7a;
     text-align: center;
@@ -164,7 +163,10 @@ a.open {
     font-size: large;
     background-color: #033b7a;
     padding: 10px;
+}
+   
 
+#quotes p {
     border-style: solid;
     border-width: 5px;
 
@@ -247,7 +249,44 @@ a.open {
 }
 
 /* books.html */
-#bookorder_form label {
+#book-window {
+    text-align: center;
+    clear:both;
+}
+
+.book-showcase {
+    text-align: center;
+    width:300px;
+    height: 750px;
+    margin: 0 auto;
+    overflow:scroll;
+    
+    font-size: large;
+    display:inline-block;
+    vertical-align: top;
+
+    box-sizing: border-box;
+    border-color: #033b7a;
+    border-width: 2px;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: dotted;
+}
+.book-showcase h2 {
+    height: 100px;
+}
+.book-showcase img {
+    width: 300px;
+    height: 400px;    
+}
+
+#bookorder-form {
+    width:100%;
+    height:auto;
+}
+
+#bookorder-form label {
     color: white;
     line-height: 30px;
 }
@@ -255,7 +294,7 @@ a.open {
 .input-field {
     border: 1px solid black;
     display: inline;
-    width: 300px;
+    width: 270px;
     height: 30px;
 }
 
@@ -284,16 +323,18 @@ a.open {
     border: 2px groove;
     margin: 10px;
     padding: 10px;
-    background-color: #0d6cab;
+    background-color: #0d4f7a;
 }
 
-legend {
-    background-color: white;
-    color: #1e4b80;
+legend {    
+    background-color: #5a5b5c;
+    color: #fefff6;
     padding: 10px;
     border-style: groove;
-    border: 5px solid #1e4b80;
+    border: 5px solid #56677b;
     border-radius: 10px;
+
+    text-transform: uppercase;
 }
 
 /* footer */
@@ -372,6 +413,10 @@ footer {
     }
 
     /* books page - books.html */
+    #bookorder-form {
+        width: 640px;
+        margin: 0 auto;
+    }
     #bookorder-form label {
         width: 300px;
         display: inline-block;
@@ -395,6 +440,24 @@ footer {
 
     a.nav-link {
         width: 15%;
+    }
+
+    /* books page - books.html */
+    #bookorder-form {
+        width: 940px;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+    #bookorder-form label {
+        width: 400px;
+        display: inline-block;
+    }
+    .input-field {
+        width: 400px;
+    }
+
+    .submit-button {
+        width: 400px;
     }
 
 }
