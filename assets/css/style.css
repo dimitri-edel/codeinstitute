@@ -17,7 +17,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    clear: both;    
+    clear: both;
 }
 
 #title-bar {
@@ -117,30 +117,69 @@ a.open {
     background-color: #1e4b80;
     clear: left;
     height: auto;
-    color: lightyellow;
+    color: lightyellow;    
+    border: 5px solid #033b7a;
+    
     font-family: 'Kalam', cursive;
 }
 
 #quotes {
     background-color: #1e4b80;
-    color: lightyellow;
-    font-family: 'Kalam', cursive;
+    color: lightyellow;   
+    border: 5px solid #033b7a; 
 
+    font-family: 'Kalam', cursive;
     height: auto;
 }
 
-#philosophy h2, #quotes h2 {
-    font-size: 33px;
+#quotes-container {
+    width:100%;
 }
 
-#philosophy p, #quotes p {
+#philosophy h2,
+#quotes h2 {
+    font-size: 33px;
+    border-color: white;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    background-color: #033b7a;
+    text-align: center;
+}
+
+#philosophy p,
+#quotes p {
     flex: 1 1 auto;
     height: 100%;
     font-size: large;
+    background-color: #033b7a;
+    padding: 10px;
+
+    border-style: solid;
+    border-width: 10px;
+
+    border-top-color:#889eb7;
+    border-right-color: #355a84;
+    border-bottom-color: #072241;
+    border-left-color: #3b5e86;
+}
+
+.border-ridge {
+    border-style: solid;
+    border-width: 10px;
+
+    border-top-color:#889eb7;
+    border-right-color: #355a84;
+    border-bottom-color: #072241;
+    border-left-color: #3b5e86;
+}
+
+#video-1 {
+    margin: 20px;
 }
 
 #quotes p {
-    margin: 10px;
+    margin: 20px;
     line-height: 20px;
     text-align: justify;
 }
@@ -195,12 +234,12 @@ a.open {
 /* books.html */
 #bookorder_form label {
     color: white;
-    line-height: 30px;    
+    line-height: 30px;
 }
 
 .input-field {
     border: 1px solid black;
-    display: inline;    
+    display: inline;
     width: 300px;
     height: 30px;
 }
@@ -226,7 +265,7 @@ a.open {
     transform: translateY(5px);
 }
 
-#bookorder-form > fieldset {
+#bookorder-form>fieldset {
     border: 2px groove;
     margin: 10px;
     padding: 10px;
@@ -246,7 +285,7 @@ legend {
 footer {
     background-color: rgb(92, 86, 86);
     color: white;
-    height: 5vh;    
+    height: 5vh;
     bottom: 0;
 }
 
@@ -259,7 +298,7 @@ footer {
         float: left;
     }
 
-    #nav-bar {        
+    #nav-bar {
         float: none;
     }
 
@@ -308,6 +347,10 @@ footer {
         height: auto;
     }
 
+    #quotes-container {
+        width:calc(100% - 490px);
+    }
+
     #video-1 {
         float: right;
         /* clear: both; */
@@ -320,8 +363,8 @@ footer {
 
     /* books page - books.html */
     #bookorder-form label {
-        width:300px;
-        display:inline-block;
+        width: 300px;
+        display: inline-block;
     }
 
     footer {
