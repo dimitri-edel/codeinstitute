@@ -277,8 +277,9 @@ a.open {
     height: 100px;
 }
 .book-showcase img {
-    width: 300px;
+    width: auto;
     height: 400px;    
+    overflow: hidden;
 }
 
 #bookorder-form {
@@ -324,11 +325,12 @@ a.open {
     margin: 10px;
     padding: 10px;
     background-color: #0d4f7a;
+    display:block;
 }
 
 legend {    
     background-color: #5a5b5c;
-    color: #fefff6;
+    color: #f3f5d9;
     padding: 10px;
     border-style: groove;
     border: 5px solid #56677b;
@@ -417,6 +419,9 @@ footer {
         width: 640px;
         margin: 0 auto;
     }
+
+    
+
     #bookorder-form label {
         width: 300px;
         display: inline-block;
@@ -448,9 +453,11 @@ footer {
         line-height: 40px;
         margin: 0 auto;
     }
+
     #bookorder-form label {
         width: 400px;
         display: inline-block;
+        margin-left: 40px;
     }
     .input-field {
         width: 400px;
