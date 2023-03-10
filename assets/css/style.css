@@ -15,14 +15,16 @@ body {
 header {
     position: sticky;
     top: 0;
+    left: 0;
     width: 100%;
-    clear: both;
+    clear: both;    
 }
 
 #title-bar {
     background-color: #f2f29b;
     overflow: hidden;
     width: 100%;
+
 }
 
 h1 {
@@ -35,7 +37,7 @@ h1 {
 #nav-bar {
     display: block;
     width: 100%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     overflow: hidden;
 }
 
@@ -179,15 +181,16 @@ a.open {
 /* books.html */
 #bookorder_form label {
     color: white;
-    line-height: 30px;
+    line-height: 30px;    
 }
 
 .input-field {
     border: 1px solid black;
-    display: block;
+    display: inline;    
     width: 300px;
     height: 30px;
 }
+
 
 .submit-button {
     background-color: #1e4b80;
@@ -209,7 +212,7 @@ a.open {
     transform: translateY(5px);
 }
 
-fieldset {
+#bookorder_form > fieldset {
     border: 2px groove;
     margin: 10px;
     padding: 10px;
@@ -229,8 +232,7 @@ legend {
 footer {
     background-color: rgb(92, 86, 86);
     color: white;
-    height: 5vh;
-    position: sticky;
+    height: 5vh;    
     bottom: 0;
 }
 
@@ -245,7 +247,7 @@ footer {
 
     #nav-bar {
         width: 65%;
-        float: right;
+        float: none;
     }
 
     #navigation-menu {
@@ -301,6 +303,12 @@ footer {
     /* movies page - mma.html */
     #movie-box {
         display: block;
+    }
+
+    /* books page - books.html */
+    #bookorder_form label {
+        width:300px;
+        display:inline-block;
     }
 
     footer {
