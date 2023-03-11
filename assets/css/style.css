@@ -223,23 +223,24 @@ a.open {
 }
 
 /* mma.html - Martial Arts Page */
-#impact-on-mma {
+#impact-on-mma, #jeet-kune-do-article {
     display: block;
 }
 
-#impact-on-mma h1 {
+#impact-on-mma h1, #jeet-kune-do-article h1 {
     float: none;
     text-align: center;
     font-family: 'Kalam', cursive;
 }
 
-#impact-on-mma h2 {
+#impact-on-mma h2, #jeet-kune-do-article h2 {
     float: none;
     text-align: center;
     font-family: 'Kalam', cursive;
 }
 
-#impact-on-mma p {
+#impact-on-mma p, #jeet-kune-do-article p {
+    font-size: large;
     margin: 5px;
 }
 
