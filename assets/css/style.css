@@ -61,10 +61,12 @@ a.nav-link {
     width: 20%;
 
 }
- /* Set margin to the icon to create gap between Text and icon */
- i {
+
+/* Set margin to the icon to create gap between Text and icon */
+i {
     margin-right: 10px;
- }
+}
+
 a.nav-link:hover {
     background-color: gray;
 }
@@ -77,7 +79,7 @@ a.open {
     text-decoration: underline;
     background-color: #f2f29b;
     border: 1px solid #d1d106;
-    color:#072241;
+    color: #072241;
 }
 
 .wallpaper {
@@ -99,7 +101,7 @@ a.open {
     padding: 5px;
 }
 
-.portrait-text img{
+.portrait-text img {
     height: 30vh;
     width: auto;
     display: block;
@@ -119,26 +121,31 @@ a.open {
     background-color: #1e4b80;
     clear: left;
     height: auto;
-    color: lightyellow;    
+    color: lightyellow;
     border: 5px solid #033b7a;
-    
+
     font-family: 'Kalam', cursive;
 }
 
 #quotes {
     background-color: #1e4b80;
-    color: lightyellow;   
-    border: 5px solid #033b7a; 
+    color: lightyellow;
+    border: 5px solid #033b7a;
 
     font-family: 'Kalam', cursive;
     height: auto;
 }
 
 #quotes-container {
-    width:100%;
+    width: 100%;
 }
 
-#philosophy h2,
+#philosophy h2 {
+    background-color: #033b7a;
+    font-size: 33px;
+    text-align: center;
+}
+
 #quotes h2 {
     font-size: 33px;
     border-color: white;
@@ -157,15 +164,15 @@ a.open {
     height: 100%;
     font-size: large;
     background-color: #033b7a;
-    padding: 10px;
+    padding: 10px 20px;
 }
-   
+
 
 #quotes p {
     border-style: solid;
     border-width: 5px;
 
-    border-top-color:#889eb7;
+    border-top-color: #889eb7;
     border-right-color: #355a84;
     border-bottom-color: #072241;
     border-left-color: #3b5e86;
@@ -175,7 +182,7 @@ a.open {
     border-style: solid;
     border-width: 5px;
 
-    border-top-color:#889eb7;
+    border-top-color: #889eb7;
     border-right-color: #355a84;
     border-bottom-color: #072241;
     border-left-color: #3b5e86;
@@ -193,7 +200,7 @@ a.open {
 
 /* Adjust the video size to a smaller screen */
 #video-1 {
-    width:270px;    
+    width: 270px;
 }
 
 /* movies.html */
@@ -223,42 +230,86 @@ a.open {
 }
 
 /* mma.html - Martial Arts Page */
-#impact-on-mma, #jeet-kune-do-article {
+#impact-on-mma,
+#jeet-kune-do-article {
     display: block;
 }
 
-#impact-on-mma h1, #jeet-kune-do-article h1 {
+#impact-on-mma footer,
+#jeet-kune-do-article footer {
+    height: auto;
+}
+
+#impact-on-mma header,
+#jeet-kune-do-article header {
+    display: table;
+    height: auto;
+    position: relative;
+}
+
+#impact-on-mma h1,
+#jeet-kune-do-article h1 {
+    float: none;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    vertical-align: middle;
+}
+
+#impact-on-mma h2,
+#jeet-kune-do-article h2 {
     float: none;
     text-align: center;
     font-family: 'Kalam', cursive;
 }
 
-#impact-on-mma h2, #jeet-kune-do-article h2 {
-    float: none;
-    text-align: center;
-    font-family: 'Kalam', cursive;
-}
-
-#impact-on-mma p, #jeet-kune-do-article p {
+#impact-on-mma p,
+#jeet-kune-do-article p {
     font-size: large;
     margin: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#high-kick-left {
+    display: block;
+    float: left;
+    margin-top: 20px;
+    height: 30px;
+    width: auto;
+    transform: rotateY(180deg);
+}
+
+#high-kick-right {
+    display: block;
+    float: right;
+    margin-top: 20px;
+    height: 30px;
+    width: auto;
+}
+
+#jeet-kune-do-symbol {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 /* books.html */
 #book-window {
     text-align: center;
-    clear:both;
+    clear: both;
 }
 
 .book-showcase {
     text-align: center;
-    width:300px;
+    width: 300px;
     height: 750px;
     margin: 0 auto;
-    overflow:scroll;
-    
+    overflow: scroll;
+
     font-size: large;
-    display:inline-block;
+    display: inline-block;
     vertical-align: top;
 
     box-sizing: border-box;
@@ -269,22 +320,26 @@ a.open {
     border-bottom-style: solid;
     border-left-style: dotted;
 }
+
 .book-showcase h2 {
     height: 100px;
-    
+
 }
+
 .book-showcase img {
     width: auto;
-    height: 400px;    
+    height: 400px;
     overflow: hidden;
 }
+
 .book-showcase p {
     text-align: justify;
     padding: 5px 15px;
 }
+
 #bookorder-form {
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
 
 #bookorder-form label {
@@ -325,10 +380,10 @@ a.open {
     margin: 10px;
     padding: 10px;
     background-color: #0d4f7a;
-    display:block;
+    display: block;
 }
 
-legend {    
+legend {
     background-color: #5a5b5c;
     color: #f3f5d9;
     padding: 10px;
@@ -401,17 +456,29 @@ footer {
     }
 
     #quotes-container {
-        width:calc(100% - 510px);
+        width: calc(100% - 510px);
     }
 
     #video-1 {
         float: right;
-        width:480px;
+        width: 480px;
     }
 
-    /* movies page - mma.html */
+    /* movies page - movies.html */
     #movie-box {
         display: block;
+    }
+
+    /* martial arts page - mma.html */
+    #impact-on-mma h1,
+    #jeet-kune-do-article h1 {
+        font-size: x-large;
+    }
+
+
+    #impact-on-mma p,
+    #jeet-kune-do-article p {
+        padding: 10px 30px;
     }
 
     /* books page - books.html */
@@ -420,7 +487,7 @@ footer {
         margin: 0 auto;
     }
 
-    
+
 
     #bookorder-form label {
         width: 300px;
@@ -449,6 +516,17 @@ footer {
         width: 15%;
     }
 
+    /* martial arts page - mma.html */
+    #impact-on-mma h1,
+    #jeet-kune-do-article h1 {
+        font-size: xx-large;
+    }
+
+    #impact-on-mma p,
+    #jeet-kune-do-article p {
+        padding: 10px 50px;
+    }
+
     /* books page - books.html */
     #bookorder-form {
         width: 940px;
@@ -461,6 +539,7 @@ footer {
         display: inline-block;
         margin-left: 40px;
     }
+
     .input-field {
         width: 400px;
     }

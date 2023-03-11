@@ -25,6 +25,7 @@ Here comes the description
 - GitPod
 - Gimp
 - Chhrome Developer Tools
+- MS Paint
 ## Credits
 Here comes the description
 ### Content
@@ -38,3 +39,5 @@ Here comes the description
 - en.picmix.com (Image of Bruce Lee with a dragon in the background)
 - freesvg.org (Portrait of Bruce Lee on the Home Page)
 - wikipedia.org (Images of the book covers)
+- icon-library.com (Image for martial arts page : high kick icon)
+- pngegg.com (Image for Jeet Kune Do Symbol)
