@@ -287,24 +287,37 @@ a.open {
     width: auto;
 }
 
-#jeet-kune-do-symbol {
-    height: 200px;
-    width: auto;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
+#ying-yang-symbol-left {
+    float:left;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;    
+    display: block;  
+    margin-left: 30px;  
 }
 
+#ying-yang-symbol-right {
+    float:right;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;    
+    display: block;  
+    margin-right: 30px;  
+}
 /* books.html */
 #book-window {
     text-align: center;
     clear: both;
 }
 
+.book-article {
+    height: 100%;
+}
+
 .book-showcase {
     text-align: center;
     width: 300px;
-    height: 750px;
+    height: 950px;
     margin: 0 auto;
     overflow: scroll;
 
@@ -325,8 +338,8 @@ a.open {
     height: 100px;
 
 }
-
-.book-showcase img {
+/* the properties of the image of a book in a showcase */
+.book-image {
     width: auto;
     height: 400px;
     overflow: hidden;
@@ -335,6 +348,33 @@ a.open {
 .book-showcase p {
     text-align: justify;
     padding: 5px 15px;
+}
+
+.book-description {
+    height:450px;
+    position: relative;
+}
+
+.book-description table {
+    width: 100%;   
+    position: absolute; 
+    bottom: 10px;
+    left: 0px;
+}
+
+
+.book-description table, th, td {
+    background-color: #dde6f1;
+    text-align:  center;
+    border: 1px solid #0d4f7a;
+    color:#033b7a;
+    vertical-align: middle;
+}
+
+/* class used to turn slightly larger images to a small size of an icon */
+.small-icon {
+    width: 30px;
+    height: 30px;
 }
 
 #bookorder-form {
@@ -482,6 +522,9 @@ footer {
     }
 
     /* books page - books.html */
+    .book-showcase {
+        overflow: hidden;
+    }
     #bookorder-form {
         width: 640px;
         margin: 0 auto;
@@ -525,6 +568,14 @@ footer {
     #impact-on-mma p,
     #jeet-kune-do-article p {
         padding: 10px 50px;
+    }
+
+    #ying-yang-symbol-left {
+        margin-left: 50px;
+    }
+
+    #ying-yang-symbol-right {
+        margin-right: 50px;
     }
 
     /* books page - books.html */
