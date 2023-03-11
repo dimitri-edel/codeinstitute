@@ -238,6 +238,8 @@ a.open {
 #impact-on-mma footer,
 #jeet-kune-do-article footer {
     height: auto;
+    width: 95%;
+    margin: 0 auto;
 }
 
 #impact-on-mma header,
