@@ -54,7 +54,7 @@ a.nav-link {
     min-height: 40px;
     padding: 5px;
 
-    font-size: small;
+    font-size: 20px;
 
     height: 80%;
     margin: 1%;
@@ -148,11 +148,11 @@ a.open {
 }
 
 #quotes-container {
-    width: 100%;
+    width: 100%;    
 }
 
 #philosophy h2 {
-    background-color: #033b7a;
+    background-color: #1e4b80;
     font-size: 33px;
     text-align: center;
 }
@@ -165,7 +165,7 @@ a.open {
     border-bottom: 3px;
     border-right: 3px;
     border-style: solid;
-    background-color: #033b7a;
+    background-color: #1e4b80;
     text-align: center;
 }
 
@@ -174,7 +174,7 @@ a.open {
     flex: 1 1 auto;
     height: 100%;
     font-size: large;
-    background-color: #033b7a;
+    background-color: #001731;
     padding: 10px 20px;
 }
 
@@ -455,25 +455,25 @@ legend {
 footer {
     background-color: rgb(92, 86, 86);
     color: white;
-    height: 120px;
-    line-height: 30px;
+    height: 100px;
+    line-height: 20px;
     bottom: 0;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 footer h3 {
     font-family: 'Kaushan Script', cursive;
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
-    margin: 10px 0 30px 0;
+    margin: 5px 0 15px 0;
 }
 
 footer h4 {
     font-family: 'Kaushan Script', cursive;
-    font-size: x-large;
+    font-size: large;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
 }
 
 footer ul {
@@ -486,7 +486,7 @@ footer li {
     float: left;
     width: 33%;
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 footer li a {
@@ -498,9 +498,10 @@ footer li a {
 
 @media only screen and (min-width: 640px) {
     h1 {
-        margin: 0 20px;
-        text-align: left;
-        float: left;
+        margin: 0 10px;
+        font-size: 30px;
+        text-align: center;
+        float: none;
     }
 
     #nav-bar {
@@ -531,7 +532,7 @@ footer li a {
     }
 
     a.nav-link {
-        width: 17%;
+        width: 20%;
         margin: 10px;
         min-height: auto;
         height: 80%;
@@ -594,9 +595,29 @@ footer li a {
         display: inline-block;
     }
 
-    footer {
+    /* footer */
+    
+    footer {        
+        height: 120px;
+        line-height: 30px;
+        padding: 20px 0;
         clear: both;
     }
+    
+    footer h3 {
+        font-size: xx-large;
+        margin: 10px 0 30px 0;
+    }
+    
+    footer h4 {
+        font-size: x-large;
+        margin: 10px;
+    }
+        
+    footer li {
+        font-size: 30px;
+    }
+    
 }
 
 /* media query for desktops */
@@ -610,6 +631,7 @@ footer li a {
 
     h1 {
         margin: 0 50px;
+        font-size: 30px;
     }
 
     a.nav-link {
