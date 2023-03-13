@@ -91,8 +91,11 @@ a.open {
 
 /* index.html - introduction article */
 
-
-.portrait-text {
+#biography-heading {
+    background-color: #fafae1;
+    text-align: center;
+}
+.biography-text {
     border: 1px solid white;
     height: 35vh;
     background-color: #fafae1;
@@ -101,7 +104,7 @@ a.open {
     padding: 5px;
 }
 
-.portrait-text img {
+.biography-text img {
     height: 30vh;
     width: auto;
     display: block;
