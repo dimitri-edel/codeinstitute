@@ -632,6 +632,7 @@ footer li a {
     h1 {
         margin: 0 50px;
         font-size: 30px;
+        float: left;
     }
 
     a.nav-link {
