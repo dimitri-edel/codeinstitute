@@ -1,22 +1,28 @@
 # Bruce Lee's philosphy
 ![Bruce Lee's portrait](/assets/img/portrait1.png)
 ## Features
+The main purpose of the site is to give the user the highlights of the legendary persona by the name Bruce Lee. The site gives a brief biography of the celebrity. In addition, the website provides a summary on Bruce Lee's body of work including his most iconic movies and information on his impact on the world of martial arts.
+Furthermore, the user is offered a posibilty to order his books.
 ### Navigation
-Here comes the description
-### Header
-Here comes the description
+The website has a navigation bar with links to all of the four pages. The navigation bar also displays the name of the page and highlights the current webpage link.
+Navigation bar structure
+Name of page
+- Home
+- Movies
+- Martial arts
+- Books
+
 ### Index page
-Here comes the description
+The home page contains a short biography and two articles on Bruce Lee's philosophy.
 ### Movies page
-Here comes the description
+The page only covers the most iconic movies with Bruce Lee playing the main character.
 ### Books page
-Here comes the description
+The page gives a short descritpion of all of Bruce Lee's books on martial arts and 
 ## Testing
-Here comes the description of testing with lighthouse and the like
 ### Bugs
-Here comes the description
+A few minor bugs came up at the first test. But all of them were typos and were fixed immediately.
 ### Validator Testing
-Here comes the description
+The pages have been tested by validator.w3.org and jigsaw.w3.org/css-validator and have passed the tests.
 ## Deployment
 Here comes the description
 
