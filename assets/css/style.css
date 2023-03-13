@@ -90,11 +90,15 @@ a.open {
 }
 
 /* index.html - introduction article */
+#biography-containter {
+    background-color: #fafae1;     
+}
 
 #biography-heading {
     background-color: #fafae1;
     text-align: center;
 }
+
 .biography-text {
     border: 1px solid white;
     height: 35vh;
@@ -102,17 +106,21 @@ a.open {
     flex: 1 1 auto;
     overflow: scroll;
     padding: 5px;
+    
+
+    text-align: justify;
+    line-height: 20px;
 }
 
-.biography-text img {
-    height: 30vh;
-    width: auto;
+.portrait {    
+    height: auto;
+    width: 100%;
     display: block;
-    float: left;
+    float: none;
     margin: 10px;
 }
 
-.portrait-text>p {
+.biography-text>p {
     font-size: large;
     padding: 10px;
     height: auto;
@@ -293,22 +301,23 @@ a.open {
 }
 
 #ying-yang-symbol-left {
-    float:left;
+    float: left;
     height: 30px;
     width: 30px;
-    border-radius: 50%;    
-    display: block;  
-    margin-left: 30px;  
+    border-radius: 50%;
+    display: block;
+    margin-left: 30px;
 }
 
 #ying-yang-symbol-right {
-    float:right;
+    float: right;
     height: 30px;
     width: 30px;
-    border-radius: 50%;    
-    display: block;  
-    margin-right: 30px;  
+    border-radius: 50%;
+    display: block;
+    margin-right: 30px;
 }
+
 /* books.html */
 #book-window {
     text-align: center;
@@ -343,6 +352,7 @@ a.open {
     height: 100px;
 
 }
+
 /* the properties of the image of a book in a showcase */
 .book-image {
     width: auto;
@@ -356,23 +366,25 @@ a.open {
 }
 
 .book-description {
-    height:450px;
+    height: 450px;
     position: relative;
 }
 
 .book-description table {
-    width: 100%;   
-    position: absolute; 
+    width: 100%;
+    position: absolute;
     bottom: 10px;
     left: 0px;
 }
 
 
-.book-description table, th, td {
+.book-description table,
+th,
+td {
     background-color: #eaf0f741;
-    text-align:  center;
+    text-align: center;
     border: 1px solid #0d4f7a;
-    color:#033b7a;
+    color: #033b7a;
     vertical-align: middle;
 }
 
@@ -443,8 +455,43 @@ legend {
 footer {
     background-color: rgb(92, 86, 86);
     color: white;
-    height: 5vh;
+    height: 120px;
+    line-height: 30px;
     bottom: 0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: xx-large;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+footer h4 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    direction: rtl;
+}
+
+footer li {
+    display: block;
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
 }
 
 /* media query for tablets */
@@ -464,19 +511,23 @@ footer {
         clear: none;
     }
 
-    .portrait-heading {
-        height: 30vh;
-        width: auto;
-        float: left;
-        clear: left;
-        background-color: #c0c0c0;
+    #biography-containter {
+        background-color: #fafae1; 
+        height: 400px;
     }
 
-    #portrait-text {
-        display: flex;
-        flex: 1 1 auto;
-        height: 15%;
-        float: left;
+    .biography-text {
+        height: 350px;
+        margin: 0;
+    }
+    
+    .biography-text p {
+        padding: 10px 30px;
+    }
+    .portrait {        
+        height: 372px;
+        width: 296px;
+        float:left;
     }
 
     a.nav-link {
@@ -530,6 +581,7 @@ footer {
     .book-showcase {
         overflow: hidden;
     }
+
     #bookorder-form {
         width: 640px;
         margin: 0 auto;
