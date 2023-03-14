@@ -1,5 +1,5 @@
 # Bruce Lee's philosphy
-![Bruce Lee's portrait](./assets/img/portrait.webp)
+![Bruce Lee's portrait](./assets/img/documentation/cover.webp)
 ## Features
 The main purpose of the site is to give the user the highlights of the legendary persona by the name Bruce Lee. The site gives a brief biography of the celebrity. In addition, the website provides a summary on Bruce Lee's body of work including his most iconic movies and information on his impact on the world of martial arts.
 Furthermore, the user is offered a posibilty to order his books.
@@ -19,6 +19,10 @@ The page only covers the most iconic movies with Bruce Lee playing the main char
 ### Books page
 The page gives a short descritpion of all of Bruce Lee's books on martial arts and provides the user with the opportunity to order one of his books.
 ## Testing
+### Lighthouse
+Didn't have enough time to straighten out all issues with performance. Most of them come down to using third party resources such as fontawsome and google fonts. 
+Also, I used a lazy technique for sizing most of the images by using the auto for either the heightth or the width of a given image. I was going to get that taken
+care of if I had enough time. 
 ### Bugs
 A few minor bugs came up at the first test. But all of them were typos and were fixed immediately.
 ### Validator Testing
@@ -47,3 +51,4 @@ Here comes the description
 - icon-library.com (Image for martial arts page : high kick icon)
 - pngegg.com (Image for Jeet Kune Do Symbol)
 - youtube.com (short clips of Bruce Lee)
+- freepik.com (Images of monitor and laptop)
