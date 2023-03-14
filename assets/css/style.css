@@ -18,6 +18,7 @@ header {
     left: 0;
     width: 100%;
     clear: both;
+    z-index: 5;    
 }
 
 h1 {
@@ -27,11 +28,16 @@ h1 {
     text-align: center;
 }
 
+/* Versatile classes */
+.center {
+    margin: 0 auto;
+}
+
 #nav-bar {
     background-color: #f2f29b;
     display: block;
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     overflow: hidden;
 }
 
@@ -39,6 +45,10 @@ h1 {
     list-style-type: none;
     direction: rtl;
     clear: both;
+}
+#navigation-menu li{
+    width:25%;
+    float: left;
 }
 
 a.nav-link {
@@ -58,7 +68,7 @@ a.nav-link {
 
     height: 80%;
     margin: 1%;
-    width: 20%;
+    width: 80%;
 
 }
 
@@ -242,7 +252,7 @@ a.open {
 
 /* mma.html - Martial Arts Page */
 #impact-on-mma,
-#jeet-kune-do-article {
+#jeet-kune-do-article {    
     display: block;
 }
 
@@ -258,6 +268,7 @@ a.open {
     display: table;
     height: auto;
     position: relative;
+    z-index: 1;
 }
 
 #impact-on-mma h1,
@@ -363,11 +374,13 @@ a.open {
 .book-showcase p {
     text-align: justify;
     padding: 5px 15px;
+    position: relative;
 }
 
 .book-description {
     height: 450px;
     position: relative;
+    z-index: 1;
 }
 
 .book-description table {
@@ -532,7 +545,7 @@ footer li a {
     }
 
     a.nav-link {
-        width: 20%;
+        width: 80%;
         margin: 10px;
         min-height: auto;
         height: 80%;
@@ -630,13 +643,12 @@ footer li a {
     }
 
     h1 {
-        margin: 0 50px;
-        font-size: 30px;
-        float: left;
+        margin: 0 10px;
+        font-size: 30px;        
     }
 
     a.nav-link {
-        width: 15%;
+        width: 80%;
     }
 
     /* martial arts page - mma.html */
