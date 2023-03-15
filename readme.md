@@ -1,10 +1,38 @@
 # Bruce Lee's philosphy
 ![Bruce Lee's portrait](./assets/img/documentation/cover.webp)
+## Preparation
+Since I remember Bruce Lee from my childhood I did not know much about him. First of all I had to do some research and read up on his life and his body of work. In the proecess I came to see him in a different light, a more positive light. 
+### Content
+First of all, I summarized his biography in a few words. I took the dates and places from wikipedia, which I mentioned at the end of the biography section and have also provided a link to the wikipedea page. What I mostly learned about Bruce Lee was his philosophy, so I decided to dedicate the most part of the home page to that subject. I found his most famous quotes on fourminutebooks.com, which is also mentioned in the Credit Section of this file. Also, I put some of his phylosphical ideas in a few of my own words.
+
+Secondly, I assembled a list of his most iconic movies. Eventually, only four of them made it onto the page. Not least, due to the fact that most images of him and the movie covers are copyrighted.
+I even had to make a movie cover myself. It took me while, but eventually I found a free image, that depicted the persona he was playing in the movie.
+
+Thirdly, I studied up on his impact on martial arts and the new martial art he put together named Jeet Kune Do. I summarized what I had learned in two separate articles: 'Impact on Martial Arts' and 'Jeet Kune Do'. I posted the articles on the Martial Arts Page.
+
+Lastly, I made a page with showcases of the three books that he has written. I also put out a form that invites the user to order one of his books off the website.
+### Images
+Finding free images of this person quite was a piece of work and took up a lot of time. So, it was not possible for me to have as many images at my disposal as I wished I would.
+### Layout
+I decided to go with one of the most basic layouts: Title and navigation bar at the top, content in the middle and a footer at the bottom. 
+#### Home page
+The home page is devided into three sections. One is biography with an portrait image of Bruce Lee and a summary of his biography as text.
+#### Movies page
+The content of this page is wrapped in a div that uses the CSS-class 'wallpaper'. All it does is apply an image as a background. In addition to that, each movie is wrapped in a div that uses the CSS-class 'movie-box'.
+#### Martial Arts page
+The content of this page is wrapped in a div that uses the CSS-class 'wallpaper'. There are two articles. The first one is called 'Impact on Martial Arts' and has a tag-id of 'impact-on-mma'.
+The second article is on Jeet Kune Do and has the id-tag of 'jeet-kune-do-article'.
+#### Books page
+The content of this page is wrapped in a div that uses the CSS-class 'wallpaper'. Each book is presented in a div that uses the CSS-class of 'book-showcase'. Furthermore, there is a form that has the tag-id of 'bookorder-form'.
+### Colors
+I decided to go with the colors of the jumpsuit that Bruce Lee is wearing in his movie 'Game of Death'. But instead of using just yellow, black and white. I have also added blue to the mix. Some elements, such as the footer have a darkgray background. In my humble opinion these colors do not bite eachother. I have heard that white, black and gray are nont considered real colors and thus are considered neutral.
+
 ## Features
 The main purpose of the site is to give the user the highlights of the legendary persona by the name of Bruce Lee. The site gives a brief biography of the celebrity. In addition, the website provides a summary on Bruce Lee's body of work including his most iconic movies and information on his impact on the world of martial arts.
-Furthermore, the user is offered a posibilty to order his books.
+Furthermore, the user is offered a posibilty to order one of his books.
 ### Navigation
-The website has a navigation bar with links to all of the four pages. The navigation bar also displays the name of the page and highlights the current webpage link.
+The website has a navigation bar with links to all of the four pages. The navigation bar lives in the header section alongside the main title heading. The navigation bar also displays the name of the page and highlights the current webpage link.
+
 Navigation bar structure
 Name of page
 - Home
@@ -14,12 +42,19 @@ Name of page
 
 ### Home page
 The home page contains a short biography and two articles on Bruce Lee's philosophy.
+![Image of home page](./assets/img/documentation/home-page.webp)
 ### Movies page
 The page only covers the most iconic movies with Bruce Lee playing the main character.
+![Image of movies page](./assets/img/documentation/movies-page.webp)
+### Martial Arts page
+The page explains why Bruce Lee had an impact on martial arts. It also tells us about what principles Bruce applied in the Martial Art he created called Jeet Kune Do.
+![Image of the martial arts page](./assets/img/documentation/martial-arts-page.webp)
 ### Books page
 The page gives a short descritpion of all of Bruce Lee's books on martial arts and provides the user with the opportunity to order one of his books.
+![Image of the books page](./assets/img/documentation/books-page.webp)
 ##### order form
 Ensured that all of the input fields have been filled in, by using the 'required' attribute.
+image
 ## Content
 All the articles were written by me. I did some research on Bruce Lee and put down the things I had learned about this person. 
 Finding images that are not copyrighted was a piece of work. Most images of this person are copyrighted and thus out of the question.
@@ -43,6 +78,10 @@ During the second test, I encountered an issue. When scrolling down the page som
 I fixed the issue by applying the z-index property to the elements in question.
 ### Validator Testing
 The pages have been tested by validator.w3.org and jigsaw.w3.org/css-validator and have passed the tests.
+#### HTML Validator
+image
+#### CSS VAlidator
+image
 ## Deployment
 The site has been deployed from GitHub. The way to do that was to go to the settings. Click on the Pages icon. Select the repository and the branch. And click on Publish. And that was that.
 ## Technologies
@@ -54,6 +93,8 @@ The site has been deployed from GitHub. The way to do that was to go to the sett
 
 ## Credits
 ### Content
+- youtube.com
+- google.com
 - wikipedia.org
 - fourminutebooks.com (Bruce Lee's famous quotes)
 ### Media

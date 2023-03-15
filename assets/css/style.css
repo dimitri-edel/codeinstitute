@@ -28,11 +28,7 @@ h1 {
     text-align: center;
 }
 
-/* Versatile classes */
-.center {
-    margin: 0 auto;
-}
-
+/* NAVIGATION BAR - Incomapasses the navigation menu and the main heading of a page*/
 #nav-bar {
     background-color: #f2f29b;
     display: block;
@@ -77,14 +73,17 @@ i {
     margin-right: 10px;
 }
 
+/* The styling of the link when the mouse cursur is hovering over it */
 a.nav-link:hover {
     background-color: gray;
 }
 
+/* The styling of the link when it is clicked upon */
 a.nav-link:active {
     transform: translateY(5px);
 }
 
+/* The styling of the link in the navigation menu when the link represents the current page */
 a.open {
     text-decoration: underline;
     background-color: #f2f29b;
@@ -92,6 +91,7 @@ a.open {
     color: #072241;
 }
 
+/* Background image for pages: movies, mma and books */
 .wallpaper {
     background: linear-gradient(rgba(250, 250, 250, 1), rgba(249, 252, 232, 0.9),
             rgba(250, 250, 250, 1)), url('../img/dragon.webp');
@@ -99,7 +99,9 @@ a.open {
 
 }
 
-/* index.html - introduction article */
+/* ################### HOME PAGE - index.html ###################  */
+
+/* # div container for the biography article # */
 #biography-containter {
     background-color: #fafae1;     
 }
@@ -109,7 +111,16 @@ a.open {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
+/* Styling of the portrait image */
+.portrait {    
+    height: auto;
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 10px;
+}
 
+/* General settings for the text in the biography article */
 .biography-text {
     border: 1px solid white;
     height: 35vh;
@@ -123,13 +134,7 @@ a.open {
     line-height: 20px;
 }
 
-.portrait {    
-    height: auto;
-    width: 100%;
-    display: block;
-    float: none;
-    margin: 10px;
-}
+
 
 .biography-text>p {
     font-size: large;
@@ -150,6 +155,14 @@ a.open {
     text-align: justify;
 }
 
+/* Styling for the div container with the article on philosphy */
+#philosophy h2 {
+    background-color: #1e4b80;
+    font-size: 33px;
+    text-align: center;
+}
+
+/* styling for the div container for the article with Bruce Lee's famous quotes */
 #quotes {
     background-color: #1e4b80;
     color: lightyellow;
@@ -157,16 +170,6 @@ a.open {
 
     font-family: 'Roboto', sans-serif;
     height: auto;
-}
-
-#quotes-container {
-    width: 100%;    
-}
-
-#philosophy h2 {
-    background-color: #1e4b80;
-    font-size: 33px;
-    text-align: center;
 }
 
 #quotes h2 {
@@ -191,7 +194,7 @@ a.open {
 }
 
 
-#quotes p {
+#quotes p, #quotes iframe {
     border-style: solid;
     border-width: 5px;
 
@@ -199,20 +202,6 @@ a.open {
     border-right-color: #355a84;
     border-bottom-color: #072241;
     border-left-color: #3b5e86;
-}
-
-.border-ridge {
-    border-style: solid;
-    border-width: 5px;
-
-    border-top-color: #889eb7;
-    border-right-color: #355a84;
-    border-bottom-color: #072241;
-    border-left-color: #3b5e86;
-}
-
-#video-1 {
-    margin: 20px;
 }
 
 #quotes p {
@@ -221,21 +210,27 @@ a.open {
     text-align: justify;
 }
 
-/* Adjust the video size to a smaller screen */
+/* Set a margin for the iframe with the youtube video and adjust the video size to a smaller screen*/
 #video-1 {
+    margin: 20px;
     width: 270px;
 }
 
-/* movies.html */
+
+/* ################### MOVIES PAGE -  movies.html ################### */
+
+/* A div container with all the movies */
 .movie-collection {
     width: inherit;
     height: auto;
     text-align: center;
 }
 
+/* A div container that contains a single movie */
 .movie-box {
+    margin: 20px;
     width: 300px;
-    height: 500px;
+    height: 700px;
     font-family: 'Kaushan Script', cursive;
     display: inline-block;
     overflow: hidden;
@@ -243,24 +238,25 @@ a.open {
 
 .movie-box img {
     width: auto;
-    height: 70%;
+    height: 50%;
 
 }
 
 .movie-box p {
-    font-size: small;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* mma.html - Martial Arts Page */
+/* ################### MARTIAL ARTS PAGE - mma.html ################### */
+
+/* General settings for both articles on the page */
 #impact-on-mma,
 #jeet-kune-do-article {    
     display: block;
     font-family: 'Roboto', sans-serif;
 }
 
-#impact-on-mma footer,
-#jeet-kune-do-article footer {
+#impact-on-mma footer {
     height: auto;
     width: 95%;
     margin: 0 auto;
@@ -297,6 +293,8 @@ a.open {
     text-align: justify;
 }
 
+/* Image of a karate fighter that appears on the left side, at the top of the page */
+/* Must be rotated to fit the bill */
 #high-kick-left {
     display: block;
     float: left;
@@ -306,6 +304,7 @@ a.open {
     transform: rotateY(180deg);
 }
 
+/* Image of a karate fighter that appears on the right side, at the top of the page */
 #high-kick-right {
     display: block;
     float: right;
@@ -314,6 +313,7 @@ a.open {
     width: auto;
 }
 
+/* Image of the Ying-Yang symbol that appears on the left side in the header of the jeet-kune-do-article */
 #ying-yang-symbol-left {
     float: left;
     height: 30px;
@@ -322,7 +322,7 @@ a.open {
     display: block;
     margin-left: 30px;
 }
-
+/* Image of the Ying-Yang symbol that appears on the right side in the header of the jeet-kune-do-article */
 #ying-yang-symbol-right {
     float: right;
     height: 30px;
@@ -332,7 +332,9 @@ a.open {
     margin-right: 30px;
 }
 
-/* books.html */
+/* ################### BOOKS PAGE - books.html ################### */
+
+/* div that contains all the articles on books */
 #book-window {
     text-align: center;
     clear: both;
@@ -381,12 +383,14 @@ a.open {
     position: relative;
 }
 
+/* A div that contains the description of a given book */
 .book-description {
     height: 470px;
     position: relative;
     z-index: 1;
 }
 
+/* A Table that contains Prices and available formats of a given book. The table lives in the book description */
 .book-description table {
     width: 100%;
     position: absolute;
@@ -418,11 +422,13 @@ td {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Labels for the input-elements */
 #bookorder-form label {
     color: white;
     line-height: 30px;
 }
 
+/* Used by all input fields in the form except for the submit button */
 .input-field {
     border: 1px solid black;
     display: inline;
@@ -430,7 +436,7 @@ td {
     height: 30px;
 }
 
-
+/* Styles for the submit button */
 .submit-button {
     background-color: #1e4b80;
     color: white;
@@ -451,6 +457,7 @@ td {
     transform: translateY(5px);
 }
 
+/* This fieldset wraps around the content of the order form */
 #bookorder-form>fieldset {
     border: 2px groove;
     margin: 10px;
@@ -458,10 +465,10 @@ td {
     background-color: #0d4f7a;
     display: block;
 }
-
-legend {
+/* The styles for the fieldset that wraps around the content of the order form */
+#bookorder-form>fieldset>legend {
     background-color: #5a5b5c;
-    color: #f3f5d9;
+    color: white;
     padding: 10px;
     border-style: groove;
     border: 5px solid #56677b;
@@ -470,7 +477,7 @@ legend {
     text-transform: uppercase;
 }
 
-/* footer */
+/* FOOTER */
 footer {
     background-color: rgb(92, 86, 86);
     color: white;
@@ -505,7 +512,8 @@ footer li {
     float: left;
     width: 33%;
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
+    direction: ltr;
 }
 
 footer li a {
@@ -513,9 +521,11 @@ footer li a {
     color: white;
 }
 
-/* media query for tablets */
+/* media query for TABLETS */
 
 @media only screen and (min-width: 640px) {
+
+    /* HEADER */
     h1 {
         margin: 0 10px;
         font-size: 30px;
@@ -523,6 +533,7 @@ footer li a {
         float: none;
     }
 
+    
     #nav-bar {
         float: none;
     }
@@ -531,6 +542,24 @@ footer li a {
         clear: none;
     }
 
+    a.nav-link {
+        width: 80%;
+        margin: 10px;
+        min-height: auto;
+        height: 80%;
+    }
+
+    a.nav-link:hover {
+        background-color: gray;
+    }
+
+    a.nav-link:active {
+        transform: translateY(5px);
+    }
+
+    /* ################# HOME PAGE - index.html ################# */
+
+    /* BIOGRAPHY SECTION */
     #biography-containter {
         background-color: #fafae1; 
         height: 400px;
@@ -550,21 +579,8 @@ footer li a {
         float:left;
     }
 
-    a.nav-link {
-        width: 80%;
-        margin: 10px;
-        min-height: auto;
-        height: 80%;
-    }
-
-    a.nav-link:hover {
-        background-color: gray;
-    }
-
-    a.nav-link:active {
-        transform: translateY(5px);
-    }
-
+    
+    /* PHILOSPHY ARTICLE */
     #philosophy {
         background-color: #1e4b80;
         clear: left;
@@ -580,12 +596,12 @@ footer li a {
         width: 480px;
     }
 
-    /* movies page - movies.html */
+    /* ################# MOVIES PAGE - movies.html ################# */
     #movie-box {
         display: block;
     }
 
-    /* martial arts page - mma.html */
+    /* ################# MARTIAL ARTS PAGE - mma.html ################# */
     #impact-on-mma h1,
     #jeet-kune-do-article h1 {
         font-size: x-large;
@@ -597,7 +613,7 @@ footer li a {
         padding: 10px 30px;
     }
 
-    /* books page - books.html */
+    /* ################# BOOKS PAGE- books.html ################# */
     .book-showcase {
         overflow: hidden;
     }
@@ -614,7 +630,7 @@ footer li a {
         display: inline-block;
     }
 
-    /* footer */
+    /* FOOTER */
     
     footer {        
         height: 120px;
@@ -634,12 +650,12 @@ footer li a {
     }
         
     footer li {
-        font-size: 30px;
+        font-size: 20px;
     }
     
 }
 
-/* media query for desktops */
+/* media query for DESKTOPS */
 @media screen and (min-width: 1200px) {
     body {
         width: 80vw;
@@ -648,6 +664,7 @@ footer li a {
         background-size: 80vw;
     }
 
+    /* HEADER */
     h1 {
         margin: 0 10px;
         font-size: 30px;        
@@ -657,7 +674,7 @@ footer li a {
         width: 80%;
     }
 
-    /* martial arts page - mma.html */
+    /* ################# MARTIAL ARTS PAGE - mma.html ################# */
     #impact-on-mma h1,
     #jeet-kune-do-article h1 {
         font-size: xx-large;
@@ -676,7 +693,7 @@ footer li a {
         margin-right: 50px;
     }
 
-    /* books page - books.html */
+    /* ################# BOOKS PAGE - books.html ################# */
     #bookorder-form {
         width: 940px;
         line-height: 40px;
@@ -695,6 +712,11 @@ footer li a {
 
     .submit-button {
         width: 400px;
+    }
+
+    /*     FOOTER       */
+     footer li {
+        font-size: 30px;
     }
 
 }
