@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=Kaushan+Script&family=Roboto:wght@400;700&display=swap');
 
 
 * {
@@ -107,6 +107,7 @@ a.open {
 #biography-heading {
     background-color: #fafae1;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .biography-text {
@@ -117,7 +118,7 @@ a.open {
     overflow: scroll;
     padding: 5px;
     
-
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
     line-height: 20px;
 }
@@ -145,7 +146,8 @@ a.open {
     color: lightyellow;
     border: 5px solid #033b7a;
 
-    font-family: 'Kalam', cursive;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
 
 #quotes {
@@ -153,7 +155,7 @@ a.open {
     color: lightyellow;
     border: 5px solid #033b7a;
 
-    font-family: 'Kalam', cursive;
+    font-family: 'Roboto', sans-serif;
     height: auto;
 }
 
@@ -254,6 +256,7 @@ a.open {
 #impact-on-mma,
 #jeet-kune-do-article {    
     display: block;
+    font-family: 'Roboto', sans-serif;
 }
 
 #impact-on-mma footer,
@@ -333,6 +336,7 @@ a.open {
 #book-window {
     text-align: center;
     clear: both;
+    font-family: 'Roboto', sans-serif;
 }
 
 .book-article {
@@ -342,7 +346,7 @@ a.open {
 .book-showcase {
     text-align: center;
     width: 300px;
-    height: 950px;
+    height: 970px;
     margin: 0 auto;
     overflow: scroll;
 
@@ -378,7 +382,7 @@ a.open {
 }
 
 .book-description {
-    height: 450px;
+    height: 470px;
     position: relative;
     z-index: 1;
 }
@@ -404,12 +408,14 @@ td {
 /* class used to turn slightly larger images to a small size of an icon */
 .small-icon {
     width: 30px;
-    height: 30px;
+    height: auto;
 }
 
+/* ORDER FORM */
 #bookorder-form {
     width: 100%;
     height: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 #bookorder-form label {

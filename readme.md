@@ -18,13 +18,28 @@ The home page contains a short biography and two articles on Bruce Lee's philoso
 The page only covers the most iconic movies with Bruce Lee playing the main character.
 ### Books page
 The page gives a short descritpion of all of Bruce Lee's books on martial arts and provides the user with the opportunity to order one of his books.
+##### order form
+Ensured that all of the input fields have been filled in, by using the 'required' attribute.
+## Content
+All the articles were written by me. I did some research on Bruce Lee and put down the things I had learned about this person. 
+Finding images that are not copyrighted was a piece of work. Most images of this person are copyrighted and thus out of the question.
 ## Testing
-### Lighthouse
+### LIGHTHOUSE
 Didn't have enough time to straighten out all issues with performance. Most of them come down to using third party resources such as fontawsome and google fonts. 
-Also, I used a lazy technique for sizing most of the images by using the auto for either the heightth or the width of a given image. I was going to get that taken
+Also, I used a lazy technique for sizing most of the images by using the auto value for either the height or the width of a given image. I was going to get that taken
 care of if I had enough time. 
+#### home page
+iamge of the test
+#### movies page
+iamge of the test
+#### martial arts page
+iamge of the test
+#### books page
+iamge of the test
 ### Bugs
 A few minor bugs came up at the first test. But all of them were typos and were fixed immediately.
+During the second test, I encountered an issue. When scrolling down the page some of the elements would slide over the menu bar, making the menu bar appear transparent.
+I fixed the issue by applying the z-index property to the elements in question.
 ### Validator Testing
 The pages have been tested by validator.w3.org and jigsaw.w3.org/css-validator and have passed the tests.
 ## Deployment
@@ -36,6 +51,7 @@ Here comes the description
 - Gimp
 - Chhrome Developer Tools
 - MS Paint
+
 ## Credits
 ### Content
 - wikipedia.org
