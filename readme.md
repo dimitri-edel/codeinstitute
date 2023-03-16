@@ -2,6 +2,9 @@
 ![Bruce Lee's portrait](./assets/img/documentation/cover.webp)
 ## Preparation
 Since I remember Bruce Lee from my childhood I did not know much about him. First of all I had to do some research and read up on his life and his body of work. In the proecess I came to see him in a different light, a more positive light. 
+### Issues
+The decision to make this the subject of my project was not well thought out. I thought I knew a few things about the person, just because I had watched a few youtube videos. I cannot even remember whose videos they were, so I cannot give credit to the parties who have provided some of the information. Even though there are many articles about him, most of them are posted by his fans and are not very objective. 
+A highly arduoous task was finding free images. I did not realize that when making the decision to write about him. It took up a lot of time.
 ### Content
 First of all, I summarized his biography in a few words. I took the dates and places from wikipedia, which I mentioned at the end of the biography section and have also provided a link to the wikipedea page. What I mostly learned about Bruce Lee was his philosophy, so I decided to dedicate the most part of the home page to that subject. I found his most famous quotes on fourminutebooks.com, which is also mentioned in the Credit Section of this file. Also, I put some of his phylosphical ideas in a few of my own words.
 
