@@ -12,7 +12,7 @@ Thirdly, I studied up on his impact on martial arts and the new martial art he p
 
 Lastly, I made a page with showcases of the three books that he has written. I also put out a form that invites the user to order one of his books off the website.
 ### Images
-Finding free images of this person quite was a piece of work and took up a lot of time. So, it was not possible for me to have as many images at my disposal as I wished I would.
+Finding free images of this person  was quite a piece of work and took up a lot of time. Consequently, it was not possible for me to have as many images at my disposal as I wish I had.
 ### Layout
 I decided to go with one of the most basic layouts: Title and navigation bar at the top, content in the middle and a footer at the bottom. 
 #### Home page
@@ -25,7 +25,7 @@ The second article is on Jeet Kune Do and has the id-tag of 'jeet-kune-do-articl
 #### Books page
 The content of this page is wrapped in a div that uses the CSS-class 'wallpaper'. Each book is presented in a div that uses the CSS-class of 'book-showcase'. Furthermore, there is a form that has the tag-id of 'bookorder-form'.
 ### Colors
-I decided to go with the colors of the jumpsuit that Bruce Lee is wearing in his movie 'Game of Death'. But instead of using just yellow, black and white. I have also added blue to the mix. Some elements, such as the footer have a darkgray background. In my humble opinion these colors do not bite eachother. I have heard that white, black and gray are nont considered real colors and thus are considered neutral.
+I decided to go with the colors of the jumpsuit that Bruce Lee is wearing in his movie 'Game of Death'. But instead of using just yellow, black and white. I have also added blue to the mix. Some elements, such as the footer have a darkgray background. In my humble opinion these colors do not bite eachother. I have heard that white, black and gray are not considered real colors and thus are considered neutral.
 
 ## Features
 The main purpose of the site is to give the user the highlights of the legendary persona by the name of Bruce Lee. The site gives a brief biography of the celebrity. In addition, the website provides a summary on Bruce Lee's body of work including his most iconic movies and information on his impact on the world of martial arts.
@@ -42,22 +42,32 @@ Name of page
 
 ### Home page
 The home page contains a short biography and two articles on Bruce Lee's philosophy.
-![Image of home page](./assets/img/documentation/home-page.webp)
+#### MENU BAR
+![Image of the menu bar](./assets/img/documentation/menubar.webp)
+#### BIOGRAPHY
+![Image of the biography article](./assets/img/documentation/biography.webp)
+#### PHILOSOPHY
+![Image of the philosphy article](./assets/img/documentation/philosophy.webp)
+#### FAMOUS QUOTES
+![Image of the famous quotes](./assets/img/documentation/quotes.webp)
 ### Movies page
 The page only covers the most iconic movies with Bruce Lee playing the main character.
-![Image of movies page](./assets/img/documentation/movies-page.webp)
+![Image of movies page](./assets/img/documentation/movies.webp)
 ### Martial Arts page
 The page explains why Bruce Lee had an impact on martial arts. It also tells us about what principles Bruce applied in the Martial Art he created called Jeet Kune Do.
-![Image of the martial arts page](./assets/img/documentation/martial-arts-page.webp)
+
 ### Books page
 The page gives a short descritpion of all of Bruce Lee's books on martial arts and provides the user with the opportunity to order one of his books.
-![Image of the books page](./assets/img/documentation/books-page.webp)
+
 ##### order form
 Ensured that all of the input fields have been filled in, by using the 'required' attribute.
 image
 ## Content
 All the articles were written by me. I did some research on Bruce Lee and put down the things I had learned about this person. 
 Finding images that are not copyrighted was a piece of work. Most images of this person are copyrighted and thus out of the question.
+## Responsive Design
+I used media queries to add two breakpoints. The first one sets in, if the screen size is at least 640 pixels in width. The second one is at 1200 pixels.
+I have used the developer tools in Google Chrome to see how it looks on different devices. The structure remains in tact.
 ## Testing
 ### LIGHTHOUSE
 Didn't have enough time to straighten out all issues with performance. Most of them come down to using third party resources such as fontawsome and google fonts. 
@@ -78,25 +88,25 @@ During the second test, I encountered an issue. When scrolling down the page som
 I fixed the issue by applying the z-index property to the elements in question.
 ### Validator Testing
 The pages have been tested by validator.w3.org and jigsaw.w3.org/css-validator and have passed the tests.
-#### HTML Validator
-image
-#### CSS VAlidator
-image
 ## Deployment
-The site has been deployed from GitHub. The way to do that was to go to the settings. Click on the Pages icon. Select the repository and the branch. And click on Publish. And that was that.
+The site has been deployed from GitHub Pages. The way to do that was to go to the settings. Click on the Pages icon. Select the repository and the branch. And click on Publish. And that was that.
 ## Technologies
 - GitHub
 - GitPod
-- Gimp
-- Chhrome Developer Tools
-- MS Paint
+- Gimp wsa used to manipulate images
+- Chhrome Developer Tools for testing and debugging
+
 
 ## Credits
+### HTML & CSS Coding
+- w3schools as a tutorial for more sophisticated HTML & CSS
+- Code Institute tutorials for Basic HTML & CSS 
 ### Content
-- youtube.com
-- google.com
-- wikipedia.org
-- fourminutebooks.com (Bruce Lee's famous quotes)
+- Much of the information about everything related to martial arts and Bruce Lee's part in it came from whatching videos on youtube.com
+- The short descriptions of the movies came from Google 
+- Bruce Lee's biography and the list of his books and movies I found on wikipedia.org
+- Bruce Lee's famous quotes were taken from fourminutebooks.com 
+- The principles on how to set up a webpage came from watching the videos about the Love Running Project by Code Institute
 ### Media
 - wallpapersafari.com (Image for 'Enter the Dragon')
 - kindpng.com (Image for 'The Big Boss')

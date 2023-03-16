@@ -15,8 +15,10 @@
 
 <body lang="en-US">
     <header>
+        <!-- Accessability tag below implies that the elements that live inside it are used for internal navigation. A site map so to speak-->
         <nav id="nav-bar">
             <h1>Bruce Lee - Books</h1>
+            <!-- A list of links to internal pages of the website-->
             <ul id="navigation-menu">
                 <li><a class="nav-link" href="index.html">Home <i class="fa-solid fa-house"></i></a></li>
                 <li><a class="nav-link" href="movies.html">Movies <i class="fa-solid fa-film"></i></a></li>
@@ -25,15 +27,19 @@
             </ul>
         </nav>
     </header>
-    
+    <!-- This div is merely a background for the content-->
     <div class="wallpaper">
+        <!-- This div contains the book showcases . This way there is a clear separation between the book articles and the order form at the bottom of the page -->
         <div id="book-window">
+            <!-- This divs that use the CSS-class book-showcase allow uniform styling of how the books are presented to the user-->
             <div class="book-showcase">
+                <!-- The article tags are for the sake of better accessability on the web -->
                 <article class="book-article">
                     <h2>Chinese Gung Fu: The Philosophical Art of Self-Defense</h2>
+                    <!-- The image of the book cover -->
                     <img src="./assets/img/books/chinese-gung-fu.webp" alt="Book cover of Chinese Gung Fu"
-                        class="book-image">
-
+                        class="book-image" aria-label="Image of the book cover">
+                    <!-- The divs of class book-description are used for providing a uniform style to the descrption paragraph and the price table-->
                     <div class="book-description">
                         <p>Chinese Gung Fu: The Philosophical Art of Self-Defense is a book written by Bruce Lee
                             expressing
@@ -49,7 +55,7 @@
                             late
                             1960s.
                         </p>
-
+                        <!-- The table of available formats of the book and their corresponding prices-->
                         <table>
                             <tr>
                                 <th style="width:30%;">Format</th>
@@ -75,13 +81,15 @@
                     </div>
                 </article>
             </div>
-
+            <!-- This divs that use the CSS-class book-showcase allow uniform styling of how the books are presented to the user-->
             <div class="book-showcase">
+                <!-- The article tags are for the sake of better accessability on the web -->
                 <article class="book-article">
                     <h2>Tao of Jeet Kune Do</h2>
+                    <!-- The image of the book cover -->
                     <img src="./assets/img/books/Tao_of_Jeet_Kune_Do.webp" alt="Book cover of Tao of Jeet Kune Do"
-                        class="book-image">
-
+                        class="book-image" aria-label="Image of the book cover">
+                    <!-- The divs of class book-description are used for providing a uniform style to the descrption paragraph and the price table-->
                     <div class="book-description">
                         <p>
                             Jeet Kune Do is a collection of techniques hand picked by Bruce Lee for his own use. The
@@ -91,7 +99,7 @@
                             <q>Way of the Intercepting Fist</q>. The book was published in 1975 a few years after his
                             death.
                         </p>
-
+                        <!-- The table of available formats of the book and their corresponding prices-->
                         <table>
                             <tr>
                                 <th style="width:30%;">Format</th>
@@ -117,15 +125,19 @@
                     </div>
                 </article>
             </div>
-
+            <!-- This divs that use the CSS-class book-showcase allow uniform styling of how the books are presented to the user-->
             <div class="book-showcase">
+                <!-- The article tags are for the sake of better accessability on the web -->
                 <article class="book-article">
                     <h2>Bruce Lee's Fighting Method</h2>
+                    <!-- Image of the book cover-->
                     <img src="./assets/img/books/BLFM.webp" alt="Book cover of Bruce Lee's Fighting Method"
-                        class="book-image">
+                        class="book-image" aria-label="Image of the book cover">
+                    <!-- The divs of class book-description are used for providing a uniform style to the descrption paragraph and the price table-->
                     <div class="book-description">
-                        <p>The book covers basic training. Everything you need to develop basic skills as well as advanced techniques of self-defense.</p>
-
+                        <p>The book covers basic training. Everything you need to develop basic skills as well as
+                            advanced techniques of self-defense.</p>
+                        <!-- The table of available formats of the book and their corresponding prices-->
                         <table>
                             <tr>
                                 <th style="width:30%;">Format</th>
@@ -152,13 +164,19 @@
                 </article>
             </div>
         </div>
-
+        <!-- 
+            THE ORDER FORM
+            The required attributes in the input tags make sure that the user does not submit before filling in all the required information
+         -->
         <form id="bookorder-form">
+            <!-- The Fieldset is a visual aid for the user. It sets the form appart from the rest of the page.I chose it simply because I like the way it looks on the page -->
             <fieldset>
+                <!-- The legend signifies the purpose of the form.-->
                 <legend>Order a book:</legend>
+                <!-- All the fieldsets below group labels and corresponding input fields into sets-->
                 <fieldset>
                     <label for="first-name">First Name:</label>
-                    <input id="first-name" name="first-name" type="text" class="input-field"  required>
+                    <input id="first-name" name="first-name" type="text" class="input-field" required>
                 </fieldset>
                 <fieldset>
                     <label for="last-name">Last Name:</label>
@@ -172,6 +190,7 @@
                     <label for="format-select">Choose format from the list:</label>
                     <input type="text" list="formats" name="format" id="format-select" class="input-field" required>
                 </fieldset>
+                <!-- List of formats available. The datalist is used by the input tag above, whose id is format-select-->
                 <datalist id="formats">
                     <option value="PDF-File">
                     <option value="Ebook">
@@ -181,29 +200,33 @@
                     <label for="book-select">Choose your book from the list:</label>
                     <input type="text" list="books" name="book-title" id="book-select" class="input-field" required>
                 </fieldset>
+                <!-- List of books available. The datalist is used by the input tag above, whose id is book-select-->
                 <datalist id="books">
                     <option value="Chinese Gung Fu">
                     <option value="Tao of Jeet Kune Do">
                     <option value="Bruce Lee's Fighting Method">
                 </datalist>
-
+                <!-- The Order Submit button-->
                 <input type="submit" value="Submit Order" class="submit-button">
             </fieldset>
-
         </form>
     </div>
+    <!-- Footer contains the contact information-->
     <footer>
         <h3>Contact</h3>
-        
         <div>
-            <ul>   
-                <li><a href="mailto:dimitri.edel@gmx.net"> <i class="fa-solid fa-at"></i> Send Email</a> </li>             
-                <li><a href="tel:+4915782471677" aria-label="contact via phone"><i class="fa-solid fa-mobile-screen"></i> +4915782471677 </a>    </li>
-                <li><a href="https://www.whatsapp.com" target="_blank" aria-label="contact via whatsapp"><i class="fa-brands fa-square-whatsapp"></i> WhatpsApp </a>   </li>
+            <ul>
+                <!-- This link lets send an email without having to copy the email address and copying it into your email client software -->
+                <li><a href="mailto:dimitri.edel@gmail.com"> <i class="fa-solid fa-at"></i> Send Email</a> </li>
+                <!-- This link lets you make a call to the publisher without having to copy the phone number. The number appears on your phone if you click it. You only need to push the call button.-->
+                <li><a href="tel:+4915782471777" aria-label="contact via phone"><i
+                            class="fa-solid fa-mobile-screen"></i> +4915782471677 </a> </li>
+                <li><a href="https://www.whatsapp.com" target="_blank" aria-label="contact via whatsapp"><i
+                            class="fa-brands fa-square-whatsapp"></i> WhatpsApp </a> </li>
             </ul>
         </div>
     </footer>
-    <!-- font awsome script -->
+    <!--FONTAWSOME script -- Icons in the header and footer have been generously provided by fontawsome -->
     <script src="https://kit.fontawesome.com/73429b2bf2.js" crossorigin="anonymous"></script>
 </body>
 

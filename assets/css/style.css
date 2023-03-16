@@ -1,3 +1,4 @@
+/* Google Fonts - All fonts used in this project are imported from Google  */
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=Kaushan+Script&family=Roboto:wght@400;700&display=swap');
 
 
@@ -27,6 +28,7 @@ h1 {
     margin: 0 10px;
     text-align: center;
 }
+
 
 /* NAVIGATION BAR - Incomapasses the navigation menu and the main heading of a page*/
 #nav-bar {
