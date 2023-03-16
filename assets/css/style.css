@@ -229,9 +229,12 @@ a.open {
 
 /* A div container that contains a single movie */
 .movie-box {
-    margin: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
     width: 300px;
-    height: 500px;
+    height: 520px;
     font-family: 'Kaushan Script', cursive;
     display: inline-block;
     overflow: hidden;
@@ -353,7 +356,7 @@ a.open {
 .book-showcase {
     text-align: center;
     width: 300px;
-    height: 970px;
+    height: 1000px;
     margin: 0 auto;
     overflow: scroll;
 
@@ -390,7 +393,7 @@ a.open {
 
 /* A div that contains the description of a given book */
 .book-description {
-    height: 490px;
+    height: 500px;
     position: relative;
     z-index: 1;
 }

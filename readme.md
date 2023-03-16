@@ -66,10 +66,11 @@ The page explains why Bruce Lee had an impact on martial arts. It also tells us 
 The page gives a short descritpion of all of Bruce Lee's books on martial arts and provides the user with the opportunity to order one of his books.
 #### Book Showcases
 ![Image of book showcases](./assets/img/documentation/books.webp)
-##### order form
+##### Order Form
 ![Image of order form](./assets/img/documentation/order-form.webp)
 Ensured that all of the input fields have been filled in, by using the 'required' attribute.
-image
+##### Footer
+![Image of footer](./assets/img/documentation/footer.webp)
 ## Content
 All the articles were written by me. I did some research on Bruce Lee and put down the things I had learned about this person. 
 Finding images that are not copyrighted was a piece of work. Most images of this person are copyrighted and thus out of the question.
