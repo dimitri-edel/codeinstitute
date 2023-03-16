@@ -125,10 +125,9 @@ a.open {
 /* General settings for the text in the biography article */
 .biography-text {
     border: 1px solid white;
-    height: 35vh;
+    height: auto;
     background-color: #fafae1;
-    flex: 1 1 auto;
-    overflow: scroll;
+    flex: 1 1 auto;    
     padding: 5px;
     
     font-family: 'Roboto', sans-serif;
@@ -232,7 +231,7 @@ a.open {
 .movie-box {
     margin: 20px;
     width: 300px;
-    height: 700px;
+    height: 500px;
     font-family: 'Kaushan Script', cursive;
     display: inline-block;
     overflow: hidden;
