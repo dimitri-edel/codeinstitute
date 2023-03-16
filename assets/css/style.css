@@ -255,7 +255,11 @@ a.open {
 #impact-on-mma,
 #jeet-kune-do-article {    
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;    
+}
+
+#jeet-kune-do-article { 
+    margin-top: 30px;
 }
 
 #impact-on-mma footer {

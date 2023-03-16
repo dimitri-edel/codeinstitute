@@ -53,13 +53,18 @@ The home page contains a short biography and two articles on Bruce Lee's philoso
 ### Movies page
 The page only covers the most iconic movies with Bruce Lee playing the main character.
 ![Image of movies page](./assets/img/documentation/movies.webp)
-### Martial Arts page
+### MARTIAL ARTS PAGE
 The page explains why Bruce Lee had an impact on martial arts. It also tells us about what principles Bruce applied in the Martial Art he created called Jeet Kune Do.
-
-### Books page
+#### Impact On Martial Arts
+![Image of martial arts page](./assets/img/documentation/impact-on-mma.webp)
+#### Jeet-Kune-Do
+![Image of jeet-kune-do article](./assets/img/documentation/jeet-kune-do.webp)
+### BOOKS PAGE
 The page gives a short descritpion of all of Bruce Lee's books on martial arts and provides the user with the opportunity to order one of his books.
-
+#### Book Showcases
+![Image of book showcases](./assets/img/documentation/books.webp)
 ##### order form
+![Image of order form](./assets/img/documentation/order-form.webp)
 Ensured that all of the input fields have been filled in, by using the 'required' attribute.
 image
 ## Content
