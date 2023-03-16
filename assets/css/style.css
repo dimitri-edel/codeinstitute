@@ -19,7 +19,7 @@ header {
     left: 0;
     width: 100%;
     clear: both;
-    z-index: 5;    
+    z-index: 5;
 }
 
 h1 {
@@ -44,8 +44,9 @@ h1 {
     direction: rtl;
     clear: both;
 }
-#navigation-menu li{
-    width:25%;
+
+#navigation-menu li {
+    width: 25%;
     float: left;
 }
 
@@ -105,7 +106,7 @@ a.open {
 
 /* # div container for the biography article # */
 #biography-containter {
-    background-color: #fafae1;     
+    background-color: #fafae1;
 }
 
 #biography-heading {
@@ -113,8 +114,9 @@ a.open {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
+
 /* Styling of the portrait image */
-.portrait {    
+.portrait {
     height: auto;
     width: 100%;
     display: block;
@@ -127,9 +129,9 @@ a.open {
     border: 1px solid white;
     height: auto;
     background-color: #fafae1;
-    flex: 1 1 auto;    
+    flex: 1 1 auto;
     padding: 5px;
-    
+
     font-family: 'Roboto', sans-serif;
     text-align: justify;
     line-height: 20px;
@@ -195,7 +197,8 @@ a.open {
 }
 
 
-#quotes p, #quotes iframe {
+#quotes p,
+#quotes iframe {
     border-style: solid;
     border-width: 5px;
 
@@ -255,12 +258,23 @@ a.open {
 
 /* General settings for both articles on the page */
 #impact-on-mma,
-#jeet-kune-do-article {    
+#jeet-kune-do-article {
     display: block;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
 }
 
-#jeet-kune-do-article { 
+#impact-on-mma h1 {
+    font-size: large;    
+}
+
+#impact-on-mma p {
+    font-size: medium;
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#jeet-kune-do-article {
     margin-top: 30px;
 }
 
@@ -293,7 +307,6 @@ a.open {
     font-family: 'Kalam', cursive;
 }
 
-#impact-on-mma p,
 #jeet-kune-do-article p {
     font-size: large;
     margin: 5px;
@@ -330,6 +343,7 @@ a.open {
     display: block;
     margin-left: 30px;
 }
+
 /* Image of the Ying-Yang symbol that appears on the right side in the header of the jeet-kune-do-article */
 #ying-yang-symbol-right {
     float: right;
@@ -451,7 +465,7 @@ td {
     border-radius: 25px;
     padding: 10px;
     margin: 10px 0;
-    width: 300px;
+    width: 270px;
     border-color: aliceblue;
     border: 3px solid;
 }
@@ -473,6 +487,7 @@ td {
     background-color: #0d4f7a;
     display: block;
 }
+
 /* The styles for the fieldset that wraps around the content of the order form */
 #bookorder-form>fieldset>legend {
     background-color: #5a5b5c;
@@ -541,7 +556,7 @@ footer li a {
         float: none;
     }
 
-    
+
     #nav-bar {
         float: none;
     }
@@ -569,7 +584,7 @@ footer li a {
 
     /* BIOGRAPHY SECTION */
     #biography-containter {
-        background-color: #fafae1; 
+        background-color: #fafae1;
         height: 400px;
     }
 
@@ -577,17 +592,18 @@ footer li a {
         height: 350px;
         margin: 0;
     }
-    
+
     .biography-text p {
         padding: 10px 30px;
     }
-    .portrait {        
+
+    .portrait {
         height: 372px;
         width: 296px;
-        float:left;
+        float: left;
     }
 
-    
+
     /* PHILOSPHY ARTICLE */
     #philosophy {
         background-color: #1e4b80;
@@ -614,7 +630,10 @@ footer li a {
     #jeet-kune-do-article h1 {
         font-size: x-large;
     }
-
+        
+    #impact-on-mma p {
+        font-size: large;        
+    }
 
     #impact-on-mma p,
     #jeet-kune-do-article p {
@@ -639,28 +658,28 @@ footer li a {
     }
 
     /* FOOTER */
-    
-    footer {        
+
+    footer {
         height: 120px;
         line-height: 30px;
         padding: 20px 0;
         clear: both;
     }
-    
+
     footer h3 {
         font-size: xx-large;
         margin: 10px 0 30px 0;
     }
-    
+
     footer h4 {
         font-size: x-large;
         margin: 10px;
     }
-        
+
     footer li {
         font-size: 20px;
     }
-    
+
 }
 
 /* media query for DESKTOPS */
@@ -675,7 +694,7 @@ footer li a {
     /* HEADER */
     h1 {
         margin: 0 10px;
-        font-size: 30px;        
+        font-size: 30px;
     }
 
     a.nav-link {
@@ -724,7 +743,7 @@ footer li a {
     }
 
     /*     FOOTER       */
-     footer li {
+    footer li {
         font-size: 30px;
     }
 
