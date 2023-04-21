@@ -127,3 +127,5 @@ The site has been deployed from GitHub Pages. The way to do that was to go to th
 - pngegg.com (Image for Jeet Kune Do Symbol)
 - youtube.com (short clips of Bruce Lee)
 - freepik.com (Images of monitor and laptop)
+### DESIGN
+My mentor Adegbenga Adeye provided many useful tips on designing the website
